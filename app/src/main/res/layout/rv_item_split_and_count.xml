@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/start_end_margin"
+        android:elevation="8dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/character_name"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/inside_margin"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    tools:text="PALABRA">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center">
+                <TextView
+                    android:id="@+id/character_number"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/inside_margin"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    tools:text="PALABRA">
+
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <!--            <TextView-->
+        <!--                android:id="@+id/character_name"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_gravity="center"-->
+        <!--                android:gravity="center"-->
+        <!--                android:layout_margin="@dimen/inside_margin"-->
+        <!--                android:textSize="@dimen/text_size"-->
+        <!--                android:textColor="@color/black"-->
+        <!--                android:textStyle="bold"-->
+        <!--                tools:text="PALABRA">-->
+
+        <!--            </TextView>-->
+
+        <!--        </LinearLayout>-->
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="vertical"-->
+        <!--            android:layout_gravity="end">-->
+        <!--            <TextView-->
+        <!--                android:id="@+id/character_count"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_gravity="end"-->
+        <!--                android:gravity="end"-->
+        <!--                android:layout_margin="@dimen/inside_margin"-->
+        <!--                android:textSize="@dimen/text_size"-->
+        <!--                android:textColor="@color/black"-->
+        <!--                android:textStyle="bold"-->
+        <!--                tools:text="PALABRA">-->
+
+        <!--            </TextView>-->
+        <!--        </LinearLayout>-->
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

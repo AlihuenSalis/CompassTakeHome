@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CompassTakeHome</string>
+    <string name="txt_title_every_10Th">Every 10th character list</string>
+    <string name="txt_title_word">Word</string>
+    <string name="txt_title_counter">Count</string>
+</resources>
